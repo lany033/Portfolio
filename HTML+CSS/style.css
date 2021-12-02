@@ -1,0 +1,18 @@
+/*Selector de etiqueta*/
+body {
+    background-color: blanchedalmond;
+}
+
+p{
+    color:darkgreen;
+}
+
+/*Selectores de clase*/
+.white {
+    background-color: darkgrey;
+}
+
+/*Selector por id*/
+#yellow{
+    background-color: darkkhaki;
+}
