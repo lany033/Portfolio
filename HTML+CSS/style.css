@@ -16,3 +16,24 @@ p{
 #yellow{
     background-color: darkkhaki;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.navbar_links {
+    width: 400px;
+    
+}
+.navbar_logo {
+    width: 200px;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+.links li {
+    margin: 15px;
+    list-style-type: none;
+}
