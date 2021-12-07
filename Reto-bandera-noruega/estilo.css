@@ -1,0 +1,40 @@
+.divp{
+    border-style: none;
+    margin: 100px;
+}
+/*
+.divc1{
+    display: flex;
+    justify-content:flex-end;
+}
+*/
+.div1{
+    border-style: solid;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.div2{
+    border-style: solid;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.div8{
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+}
+
+/*
+.div3{
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    padding-left: 50px;
+}
+.div4{
+    border-style: solid;
+    padding-left: 150px;
+    padding-bottom: 150px;
+    
+*/
