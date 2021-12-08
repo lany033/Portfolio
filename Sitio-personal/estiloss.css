@@ -7,7 +7,7 @@
 
 /*Secciones*/
 .navbar{
-    background-color: mediumpurple;
+    
     height: 80px;
     width: 1152px;
     display: flex;
@@ -27,7 +27,18 @@
 }
 
 .navbar__links{
-    background-color: mediumturquoise;
+   
     height: 100%;
-    width: 100px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    font-family: 'Corinthia', cursive;
+    color: #3277a8;
+    font-weight: 700;
+
 }
