@@ -37,8 +37,37 @@
 
 .navbar__links a {
     text-decoration: none;
-    font-family: 'Corinthia', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: #3277a8;
     font-weight: 700;
 
 }
+/* banner */
+.hero {
+    
+    height: 450px;
+    width: 1200px;
+    display: flex;
+}
+.hero__photo {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.hero__photo img {
+    height: 90%;
+    /* si la foto fuera cuadrada tendria bordes redondeados */
+    border-radius: 10px;
+    /* definir sombra debajo o alos lados */
+    
+}
+.hero__text{
+    background-color: darkgray;
+    height: 100%;
+    width: 60%;
+}
+
