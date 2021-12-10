@@ -49,7 +49,7 @@ justify-content: space-between;
 .box_tres{
     background-color:darkred;
     height: 35%;
-    width: 100%;
+    /* width: 100%; */
     border-left: 1em solid white;
     border-bottom: 1em solid white;
 }
@@ -58,10 +58,28 @@ justify-content: space-between;
 .box_cuatro{
     background-color:darkred;
     height: 35%;
-    width: 100%;
+    /* width: 100%; */
     border-left: 1em solid white;
     border-top: 1em solid white;
 }
 
 
 
+/* Agregando media queries */
+@media only screen and (min-width:300px) {
+    body{
+        background-color: violet;
+    }
+    .bandera{
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width:600px) {
+    body{
+        background-color:yellow;
+    }
+    .bandera{
+        width: 60%;
+    }
+}
