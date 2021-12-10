@@ -1,0 +1,26 @@
+body{
+    background-color: darkviolet;
+}
+
+.titulo {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.yeti-img {
+    width: 600px;
+    border: silver 2px solid;
+    border-radius: 10px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton{
+    font-size: 1.3em;
+    padding: 10px;
+}
