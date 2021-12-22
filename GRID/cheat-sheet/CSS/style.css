@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    background-color: blanchedalmond;
+}
+
+:root {
+    --main-color: #b8001f;
+    --second-color: #00139f;
+    --text-light: #ffffff;
+
+}
+
+.grid {
+    background-color:pink;
+}
+
+/* los que tengan la clase grid y tengan elementos div tengan ciertos estilos */
+.grid >div{
+    background-color: var(--second-color);
+}
