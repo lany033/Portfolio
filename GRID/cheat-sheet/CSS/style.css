@@ -14,9 +14,117 @@ body{
 
 .grid {
     background-color:pink;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    grid-template-rows: 50px 50px;
 }
+
 
 /* los que tengan la clase grid y tengan elementos div tengan ciertos estilos */
 .grid >div{
     background-color: var(--second-color);
+}
+
+
+.grid-two{
+    background-color:pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+   
+}
+
+.grid-two >div{
+    background-color: var(--second-color);
+    color: white;
+}
+
+.grid-three{
+    background-color:pink;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    justify-items: center; /*siempre al horizontal*/
+    align-items: center;
+    height: 30vh;
+    
+   
+}
+
+.grid-three >div{
+    background-color: var(--second-color);
+    color: white;
+}
+
+
+.grid-four{
+    background-color:pink;
+    display: grid;
+    grid-template-columns: 20% 30% max-content; /* min-content se ajusta al contenido mas peque */
+    grid-template-rows: max-content; /* se ajusta  ala maxima posibilidad */
+    /* justify-items: center; /*siempre al horizontal*/
+    /* align-items: center; */ 
+    height: 30vh;
+    
+   
+}
+
+.grid-four >div{
+    background-color: var(--second-color);
+    color: white;
+}
+
+
+
+.grid-five{
+    background-color:pink;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-template-rows: max-content; /* se ajusta  ala maxima posibilidad */
+    height: 30vh; 
+}
+
+.grid-five >div{
+    background-color: var(--second-color);
+    color: white;
+}
+
+
+.grid-six{
+    background-color:pink;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px); /* No se sabe cuantas columnas necesito y quiero q esas columnas llenen o autocompleten la fila */
+    grid-template-rows: max-content; /* se ajusta  ala maxima posibilidad */
+    height: 30vh; 
+}
+
+.grid-six >div{
+    background-color: var(--second-color);
+    color: white;
+}
+
+
+.grid-seven{
+    background-color:pink;
+    display: grid;
+    grid-template-columns: 20% 20% 20%
+}
+
+.grid-seven >div{
+    background-color: var(--second-color);
+    color: black;
+}
+
+.grid-seven >div.element1{
+    background-color: yellow;
+}
+
+
+.grid-seven >div.element2{
+    background-color: yellowgreen;
+}
+
+
+.grid-seven >div.element3{
+    background-color: violet;
 }
