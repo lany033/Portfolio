@@ -1,0 +1,43 @@
+.grid{
+    display: grid;
+    width: 100%;
+    height: 50vh;
+    grid-template-areas: "head head"
+                        "nav main"
+                        "nav foot";
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10vh 30vh 10vh;
+}
+
+.grid >header{
+    background-color: brown;
+    grid-area: head;
+
+}
+
+
+.grid >nav{
+    background-color:chartreuse;
+    grid-area: nav;
+}
+
+.grid >main{
+    background-color:coral;
+    grid-area: main;
+}
+
+.grid >footer{
+    background-color:cornflowerblue;
+    grid-area: foot;
+}
+
+.flexible{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    width: 20%;
+    height: 50px;
+}

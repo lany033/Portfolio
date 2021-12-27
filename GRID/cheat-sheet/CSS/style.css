@@ -107,7 +107,9 @@ body{
 .grid-seven{
     background-color:pink;
     display: grid;
-    grid-template-columns: 20% 20% 20%
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 30px 30px;
+    gap: 20% 20%;
 }
 
 .grid-seven >div{
@@ -117,14 +119,22 @@ body{
 
 .grid-seven >div.element1{
     background-color: yellow;
+    justify-self: end ;
+    align-self: start;
 }
 
 
 .grid-seven >div.element2{
     background-color: yellowgreen;
+    justify-self: center;
+    align-self: center;
 }
 
 
 .grid-seven >div.element3{
     background-color: violet;
+}
+
+.grid-seven >div:hover{
+    background-color: black;
 }
